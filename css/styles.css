@@ -1,0 +1,28 @@
+.wrapper{
+ margin: 0 auto;
+ width: 80%;
+ max-width: 1200px;
+}
+.heading{
+ display: flex;
+}
+ul{
+ display: flex;
+ flex: 1 1 auto;
+}
+ul li{
+ list-style-type: none;
+ padding: 20px;
+}
+
+/* active and conactive*/
+.active{
+ background-color: pink;
+}
+
+section{
+ display: none;
+}
+.conactive{
+ display: block;
+}

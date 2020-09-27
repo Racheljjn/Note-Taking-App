@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>🎈NOTE-Taking🎈</title>
+ <link rel="stylesheet" href="./css/styles.css">
+ <script src="https://kit.fontawesome.com/da74f251be.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <main>
+   <h1>Note Taking</h1>
+   <div class="tabsbox wrapper" id="tab">
+    <!-- big box -->
+    <nav class="heading">     
+      <ul>
+       <li class="active"><span>note1</span><i class="fa fa-times-circle" aria-hidden="true"></i></li>
+       <li><span>note2</span><i class="fa fa-times-circle" aria-hidden="true"></i></li>
+       <li><span>note3</span><i class="fa fa-times-circle" aria-hidden="true"></i></li>
+      </ul>
+      <div class="tabadd">
+       <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      </div>    
+    </nav>
+    <!-- tab content -->
+    <div class="tabscon">
+      <section class="conactive">content1</section>
+      <section>content2</section>
+      <section>content3</section>
+    </div>
+   <!-- box ends -->
+   </div>
+  </main>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+
+  <script src="./main.js"></script>
+  <script src="./second.js"></script>
+</body>
+</html>
